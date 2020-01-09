@@ -1,0 +1,27 @@
+{
+  "framework": "ext",
+  "toolkit": "modern",
+  "requires": [
+    "treegrid",
+    "renderercell",
+    "charts"
+  ],
+  "overrides": [
+    "overrides",
+    "jsdom-environment.js"
+  ],
+  "packages": {
+    "dir": [
+      "../../node_modules/@sencha",
+      "../../modern/packages"
+    ]
+  },
+  "output": {
+    "base": ".",
+    "resources": {
+      "path": "./resources",
+      "shared": "./resources"
+    }
+  },
+  "theme": "theme-material"
+}
