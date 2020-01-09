@@ -1,6 +1,6 @@
-# <%= appName %>
+# Spotify-ExtReact
 
-<%= description %>
+Music app with new releases albums from Spotify endpoints with the help of ExtReact.
 
 ## Setup
 
